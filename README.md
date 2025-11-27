@@ -1,34 +1,42 @@
-# TCG-CS-F-QuantumFront: Objective Collapse Threshold
+# TCG-CS-F-QuantumFront: Formal Derivation of Objective Collapse
 
-## 1. Overview
+## Project Summary
 
-This repository contains the formal development and $\LaTeX$ source files for the academic paper: **"Formal Development of TCG-CS-F: Derivation of the Objective Collapse Threshold and the Quantum-Classical Transition."**
+This repository hosts the definitive $\LaTeX$ source and associated files for the paper: **"Formal Development of TCG-CS-F: Derivation of the Objective Collapse Threshold and the Quantum-Classical Transition."**
 
-This work focuses on the **Quantum Front** of Falsifiability ($\mathbf{M_{cr}}$) of the **TCG-CS-F (Constitutive Theory of Gravity with Physical Screening Field)**. It provides a detailed, analytical derivation of the critical mass threshold, demonstrating that the same modified gravity field required for Dark Sector unification intrinsically forces the decoherence of massive quantum systems.
+This work establishes the **Quantum Front** of the **TCG-CS-F (Constitutive Theory of Gravity with Physical Screening Field)**. It presents the analytical derivation of the critical mass threshold, $\mathbf{M_{cr}}$, demonstrating that the same unified scalar field ($\chi$) that resolves the Dark Matter and Dark Energy problems simultaneously imposes a fundamental, non-linear mechanism for the objective reduction of the quantum state.
 
-## 2. Key Prediction
+## Addressing the Double Crisis
 
-The paper derives a precise, fixed, and falsifiable prediction for the transition between the quantum and classical worlds:
+Contemporary physics is challenged by the **Double Crisis**: the **Cosmological Crisis** (the nature of Dark Matter and Dark Energy) and the **Quantum Crisis** (the Measurement Problem). TCG-CS-F offers a unified theoretical framework by introducing a non-linear scalar field $\chi$ with a specific potential ($\mathbf{V(\chi) = M^4/\chi}$) and a screening mechanism. The theory's strength lies in its **Conceptual Economy**, resolving both crises with a single set of dynamics and a fixed set of physical constants ($\alpha=3$ and $\beta=8.3 \times 10^{-5}$), requiring **no ad hoc parameters** for quantum collapse.
+
+## Key Result: The Objective Collapse Threshold ($\mathbf{M_{cr}}$)
+
+The core contribution is the rigorous derivation of the critical mass:
 
 $$\mathbf{M_{cr} \approx 10^9 \text{ amu}}$$
 
-* **Falsifiability:** Non-observation of the abrupt "Decoherence Cliff" at this mass threshold in next-generation matter interferometry experiments (e.g., MAQRO) would falsify the objective collapse mechanism and the theory's quantum implications.
+This result is derived by equating the energy uncertainty associated with sharp spatial localization to the self-interaction energy induced by the non-linear coupling of the $\chi$ field with baryonic matter.
 
-## 3. Repository Structure
+## Experimental Falsifiability: The Decoherence Cliff
+
+The prediction of $\mathbf{M_{cr} \approx 10^9 \text{ amu}}$ provides a clear, **falsifiable** test for the theory:
+
+1.  **Prediction:** Macroscopic quantum systems approaching this mass scale are predicted to experience an abrupt collapse of superposition, known as the "Decoherence Cliff."
+2.  **Test:** Future matter interferometry experiments (like MAQRO or OTIMA) must observe a sudden loss of interference fringe visibility at this threshold, independent of external environmental noise. Failure to detect this sharp transition would falsify the TCG-CS-F objective collapse mechanism.
+
+### 3. Repository Structure
+
+The following file structure reflects the content uploaded to the repository:
 
 | File/Folder | Description |
 | :--- | :--- |
-| `main.tex` | The primary $\LaTeX$ source file for the paper. |
-| `abstract.tex` | Separate file for the abstract (if split for journal submission). |
-| `figures/` | Contains necessary images, diagrams, or plots (e.g., decoherence rate vs. mass). |
-| `TCG-CS-F-QuantumFront.pdf` | The compiled PDF of the final manuscript. |
+| **`Desarrollo Formal de la TCG-CS-F.tex`** | **The primary $\LaTeX$ source file for the final manuscript.** |
+| `DERIVA~1.PDF`, `DERIVA~2.PDF` | Previous drafts or supporting material PDFs referenced during development. |
+| **`LÉAME.md`** | **The main documentation file (this document).** |
+| `LICENCIA` | The project license file (e.g., MIT). |
+| `figures/` | Directory containing all necessary images and diagrams (standard $\LaTeX$ practice). |
 
-## 4. Theory (TCG-CS-F)
+### License
 
-The Constitutive Theory of Gravity with Physical Screening Field (TCG-CS-F) is a unified framework that addresses the **Double Crisis of Fundamental Physics** (Dark Matter/Dark Energy and the Quantum Measurement Problem) using a single, non-linear scalar field ($\chi$).
-
-* **Unification:** The collapse mechanism is a direct consequence of the field dynamics necessary to explain galactic rotation curves ($\alpha=3$) and cosmic expansion ($\beta=8.3 \times 10^{-5}$), requiring **no ad hoc parameters** for quantum mechanics.
-
-## 5. License
-
-[To be inserted: e.g., MIT License or Creative Commons]
+[To be inserted: Specify the licensing terms for the code and manuscript.]
