@@ -25,18 +25,6 @@ The prediction of $\mathbf{M_{cr} \approx 10^9 \text{ amu}}$ provides a clear, *
 1.  **Prediction:** Macroscopic quantum systems approaching this mass scale are predicted to experience an abrupt collapse of superposition, known as the "Decoherence Cliff."
 2.  **Test:** Future matter interferometry experiments (like MAQRO or OTIMA) must observe a sudden loss of interference fringe visibility at this threshold, independent of external environmental noise. Failure to detect this sharp transition would falsify the TCG-CS-F objective collapse mechanism.
 
-### 3. Repository Structure
-
-The following file structure reflects the content uploaded to the repository:
-
-| File/Folder | Description |
-| :--- | :--- |
-| **`Desarrollo Formal de la TCG-CS-F.tex`** | **The primary $\LaTeX$ source file for the final manuscript.** |
-| `DERIVA~1.PDF`, `DERIVA~2.PDF` | Previous drafts or supporting material PDFs referenced during development. |
-| **`LÉAME.md`** | **The main documentation file (this document).** |
-| `LICENCIA` | The project license file (e.g., MIT). |
-| `figures/` | Directory containing all necessary images and diagrams (standard $\LaTeX$ practice). |
-
 ### License
 
 [To be inserted: Specify the licensing terms for the code and manuscript.]
